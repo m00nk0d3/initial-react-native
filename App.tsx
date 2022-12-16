@@ -1,24 +1,16 @@
-
-
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  Text,
-} from 'react-native';
+import {SafeAreaView, ScrollView, Text} from 'react-native';
 
-const App:React.FC = () => {
-
+const App: React.FC = () => {
   const backgroundStyle = {
-    backgroundColor: "#fff",
+    backgroundColor: '#fff',
+    alignItems: 'center',
   };
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-          <Text>Initial project</Text>
+      <ScrollView contentInsetAdjustmentBehavior="automatic">
+        <Text style={{fontFamily: 'Anonymice Powerline'}}>Hello World</Text>
       </ScrollView>
     </SafeAreaView>
   );
