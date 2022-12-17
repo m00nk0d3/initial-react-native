@@ -5,6 +5,9 @@ import {HelloText} from './styles';
 interface Props {
   label: string;
 }
-const Hello: React.FC<Props> = ({label}) => <HelloText>{label}</HelloText>;
+const Hello: React.FC<Props> = ({label}) => {
+  console.log('dentro do componente');
+  return <HelloText>{label}</HelloText>;
+};
 
 export default Hello;

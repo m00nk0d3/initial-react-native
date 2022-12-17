@@ -15,12 +15,8 @@
     "target": "esnext",
     "baseUrl": "./src",
     "paths": {
-      "*": [
-        "src/*",
-      ],
-      "components/*":[
-        "./components/*"
-      ],
+      "*": ["src/*",],
+      "components/*":["./components/*"],
       "screens/*":["./screens/*"]
     },
     "plugins": [
