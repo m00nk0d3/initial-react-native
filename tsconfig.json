@@ -17,7 +17,8 @@
     "paths": {
       "*": ["src/*",],
       "components/*":["./components/*"],
-      "screens/*":["./screens/*"]
+      "screens/*":["./screens/*"],
+      "utils/*":["./utils/*"]
     },
     "plugins": [
       {
